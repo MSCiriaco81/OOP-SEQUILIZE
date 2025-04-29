@@ -1,6 +1,6 @@
 import { Sequelize } from 'sequelize';
 
-const sequelize = new Sequelize('fatecdiadema', 'root', 'admin', {
+const sequelize = new Sequelize('fatecdiadema', 'root', 'gris3@', { // -> adicione sua senha do MySQL aqui!!!
   host: 'localhost',
   dialect: 'mysql',
 });
